@@ -1,14 +1,12 @@
 import React, { Component } from 'react';
+import Start from './screens/Start/Start'
 import styles from './App.module.scss';
 
 class App extends Component {
   render() {
     return (
       <div>
-        <div className={styles.app}>
-          blabla
-        </div>
-        <div className={styles.name}>bbbb</div>
+        <Start />
       </div>
     );
   }
